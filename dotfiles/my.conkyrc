@@ -1,0 +1,68 @@
+## 45678901234567890123456789012345678901234567890123456789012345678901234567890
+# Don't Panic - A lightweight conky config
+#
+# akoimeexx@gmail.com
+##
+
+#avoid flicker
+double_buffer yes
+
+# Run only one conky, apply to desktop
+own_window yes
+own_window_transparent yes
+own_window_class Conky
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+#position
+alignment top_right
+gap_x 24
+maximum_width 480
+#gap_y 0
+
+#behaviour
+update_interval 5
+
+# Format to human-readable data sizes
+format_human_readable yes
+
+#font
+use_xft yes
+xftfont monospace:size=8
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+#to prevent window from moving
+use_spacer right
+
+
+##
+# Template definitions
+##
+
+# Template 0: Section header template
+template0 ${font monospace:bold:size=48}\1${voffset -24}${font monospace:bold:size=8} [\2|${font}${alignr}\3${font monospace:bold:size=8}]${font}
+# Templates 1-2: Section property templates, temp2 used for bargraph
+#                displays.
+template1 ${offset 45}${font monospace:bold:size=8} \1 ${font}${alignr}\2
+template2 ${offset 45}${font monospace:bold:size=8} \1 ${font}\2
+# Template 3-4: Argument-required property templates, temp4 used for 
+#               bargraph displays.
+template3 ${offset 45}${font monospace:bold:size=8} \1 ${font}${alignr}${\2 \3}
+template4 ${offset 45}${font monospace:bold:size=8} \1 ${font}${\2 \3}
+
+TEXT
+${template0 ⌨ System $nodename.\$\{if_empty\ \$\{wireless_essid\ wlan0\}\}uNet\$\{else\}\$\{wireless_essid\ wlan0\}\$\{endif\}}
+${template1 Uptime $uptime}
+${template2 CPU $cpubar}
+${template2 Memory $membar}
+${template2 HDD $fs_bar}
+${template0 ✆ Network \$\{addrs\ wlan0\}}
+${template4 Signal wireless_link_bar wlan0}
+${template3 Tx upspeed wlan0}
+${template3 Rx downspeed wlan0}
+
+${template0 \  System\ Log /var/log/syslog}
+${hr 8} 
+${tail /var/log/syslog 10 30}

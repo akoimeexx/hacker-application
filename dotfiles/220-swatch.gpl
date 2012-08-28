@@ -1,0 +1,248 @@
+GIMP Palette
+Name: 220-Color Palette Swatch
+# Created by Akoi Meexx
+204	153	187	Transparent
+
+255	55	55	Bright Red
+227	39	39	Light Red
+199	23	23	Red
+171	11	11	Red
+143	7	7	Red
+99	0	0	Dark Red
+
+231	211	215	Bright Burgandy
+211	163	175	Light Burgandy
+191	123	135	Burgandy
+171	91	103	Burgandy
+151	59	75	Burgandy
+131	35	47	Burgandy
+115	15	27	Burgandy
+95	0	11	Dark Burgandy
+
+171	111	79	Bright Tan
+163	107	79	Light Tan
+155	103	79	Tan
+147	95	79	Tan
+143	95	79	Tan
+135	91	75	Tan
+127	87	75	Tan
+123	83	75	Dark Tan
+
+255	227	207	Bright Orange
+247	195	155	Light Orange
+243	163	107	Orange
+235	135	63	Orange
+211	111	39	Orange
+187	91	23	Orange
+163	71	7	Orange
+139	55	0	Dark Orange
+
+219	183	163	Bright Peach
+211	171	147	Light Peach
+207	163	135	Peach
+203	151	123	Peach
+195	143	111	Peach
+191	135	99	Peach
+187	127	87	Peach
+183	119	79	Dark Peach
+
+255	251	235	Bright Yellow
+251	235	183	Light Yellow
+247	223	135	Yellow
+243	215	91	Yellow
+219	187	71	Yellow
+199	159	51	Yellow
+175	135	39	Yellow
+155	111	27	Dark Yellow
+
+175	151	79	Bright Moss Green
+159	139	63	Light Moss Green
+147	127	51	Moss Green
+135	115	39	Moss Green
+119	107	27	Moss Green
+107	95	19	Moss Green
+95	83	11	Moss Green
+83	75	7	Dark Moss Green
+
+163	223	131	Bright Green
+143	203	107	Light Green
+123	183	83	Green
+107	163	63	Green
+95	143	47	Green
+79	123	31	Green
+67	103	19	Green
+55	83	11	Dark Green
+
+131	195	115	Bright Forest Green
+111	175	91	Light Forest Green
+95	155	67	Forest Green
+79	139	47	Forest Green
+63	119	31	Forest Green
+51	99	19	Forest Green
+43	83	11	Forest Green
+39	71	7	Dark Forest Green
+
+235	243	255	Bright Denim Blue
+183	203	231	Light Denim Blue
+143	171	207	Denim Blue
+103	139	187	Denim Blue
+71	111	163	Denim Blue
+43	87	143	Denim Blue
+23	67	119	Denim Blue
+7	51	99	Dark Denim Blue
+
+231	235	255	Bright Sky Blue
+219	223	247	Light Sky Blue
+199	203	231	Sky Blue
+179	187	219	Sky Blue
+163	171	207	Sky Blue
+143	151	187	Sky Blue
+123	131	167	Sky Blue
+103	115	151	Dark Sky Blue
+
+251	211	255	Bright Velvet
+235	187	235	Light Velvet
+215	163	207	Velvet
+195	143	183	Velvet
+179	123	159	Velvet
+159	103	135	Velvet
+139	87	111	Velvet
+123	74	91	Dark Velvet
+
+239	231	243	Bright Mauve
+231	219	235	Light Mauve
+207	191	215	Mauve
+183	163	195	Mauve
+163	135	175	Mauve
+143	111	155	Mauve
+123	91	135	Mauve
+103	71	115	Dark Mauve
+
+235	235	255	Bright Lilac
+203	199	239	Light Lilac
+175	171	223	Lilac
+151	143	207	Lilac
+135	115	191	Lilac
+115	95	175	Lilac
+103	71	159	Lilac
+91	55	147	Dark Lilac
+
+235	243	231	Bright Seafoam Green
+219	231	211	Light Seafoam Green
+203	219	191	Seafoam Green
+187	207	171	Seafoam Green
+171	195	155	Seafoam Green
+155	183	139	Seafoam Green
+143	175	123	Dark Seafoam Green
+
+255	175	195	Bright Pink
+239	127	159	Light Pink
+227	79	127	Pink
+211	39	103	Pink
+199	7	83	Pink
+171	7	71	Pink
+143	11	63	Pink
+111	7	47	Dark Pink
+
+255	251	175	Bright Green Yellow
+243	239	159	Light Green Yellow
+227	231	147	Green Yellow
+211	219	135	Green Yellow
+199	207	127	Green Yellow
+183	195	115	Green Yellow
+167	183	103	Green Yellow
+155	171	95	Dark Green Yellow
+
+247	231	231	Bright Brown
+235	207	207	Bright Brown
+219	187	187	Bright Brown
+207	167	167	Light Brown
+195	151	151	Light Brown
+183	135	135	Light Brown
+171	119	119	Brown
+159	103	103	Brown
+147	87	87	Brown
+135	75	75	Brown
+123	63	63	Brown
+111	51	51	Brown
+99	43	43	Brown
+87	31	31	Dark Brown
+75	23	23	Dark Brown
+63	19	19	Dark Brown
+
+243	239	247	Bright Indigo
+227	219	235	Bright Indigo
+211	199	223	Bright Indigo
+195	179	215	Light Indigo
+179	163	203	Light Indigo
+167	147	195	Light Indigo
+151	131	183	Indigo
+135	115	171	Indigo
+123	103	163	Indigo
+111	91	151	Indigo
+99	79	143	Indigo
+83	67	131	Indigo
+71	55	119	Indigo
+63	47	111	Dark Indigo
+51	39	99	Dark Indigo
+43	31	91	Dark Indigo
+
+255	251	223	Bright Dust
+239	235	203	Bright Dust
+227	223	187	Bright Dust
+215	207	171	Light Dust
+203	195	155	Light Dust
+191	179	139	Light Dust
+179	167	127	Dust
+167	155	115	Dust
+155	143	99	Dust
+139	127	87	Dust
+127	115	75	Dust
+115	103	67	Dust
+103	91	55	Dust
+91	79	47	Dark Dust
+79	67	39	Dark Dust
+67	55	31	Dark Dust
+
+247	247	247	Bright Gray
+231	227	227	Bright Gray
+219	211	211	Bright Gray
+203	195	195	Light Gray
+191	179	179	Light Gray
+175	167	167	Light Gray
+163	151	151	Gray
+147	135	135	Gray
+135	123	123	Gray
+119	107	107	Gray
+107	95	95	Gray
+91	79	79	Gray
+79	67	67	Dark Gray
+63	55	55	Dark Gray
+51	43	43	Dark Gray
+23	19	19	Black
+
+255	255	255	White
+
+235	215	243	Bright Purple
+207	167	223	Light Purple
+183	127	203	Purple
+163	91	183	Purple
+147	63	167	Purple
+127	35	147	Purple
+111	15	127	Purple
+95	0	111	Dark Purple
+
+139	191	243	Bright Blue
+119	147	247	Light Blue
+103	99	255	Blue
+75	71	227	Blue
+47	47	199	Blue
+27	27	175	Blue
+11	11	147	Blue
+0	0	123	Dark Blue
+
+255	95	27	Fluorescent Orange
+255	239	7	Fluorescent Yellow
+151	215	11	Fluorescent Green
+0	131	71	Jade Green
+0	135	139	Aquamarine

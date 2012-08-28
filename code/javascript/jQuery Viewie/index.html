@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>jQuery Viewie Demo</title>
+		
+		<link rel="icon" type="image/png" href="./alliance96px.png" />
+		
+		<style type="text/css">
+			div.lightbox {
+				background-image: url('./allianceBg.png'); background-position: center; background-repeat: no-repeat;
+				float: left;
+				font-family: "Ubuntu";
+				height: 272px;
+				margin: 0px 16px;
+				width: 480px;
+			}
+			div.lightbox .slide {
+				background-color: rgba(0, 0, 0, 0.25);
+				border-radius: 16px;
+				text-align: left;
+			}
+		</style>
+		
+		<script type="text/javascript" src="./js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="./js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.viewie-0.1.1.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+			$(document).ready(function() {
+				$('a[rel="external"]').click(function() {
+					window.open($(this).attr('href'));
+					return false;
+				});
+				$(".lightbox").viewie();
+			});
+		//]]>
+		</script>
+	</head>
+	<body>
+		<div class="lightbox">
+			<div class="slide" style="overflow: hidden;">
+				<img src="./alliance96px.png" alt="" height="96" style="float: left; padding: 24px 4px;" width="96" />
+				<div style="float: left;">
+					<h1>AllianceOS</h1>
+					<h2>an elegant distribution</h2>
+					<p>for a more civilized age</p>
+				</div>
+			</div>
+			<div class="slide" style="padding: 0px 8px;">
+				<h3>Key features:</h3>
+				<ul>
+					<li>Gnome Desktop</li>
+					<li>Avant Window Navigator</li>
+					<li>Geany</li>
+					<li>Conky</li>
+					<li>Pidgin</li>
+					<li>Nano</li>
+					<li>Vim</li>
+					<li>VLC</li>
+					<li>Chrome</li>
+					<li>Inkscape</li>
+					<li>Python</li>
+					<li>Nautilus Elementary</li>
+					<li>Jupiter</li>
+					<li>Synapse</li>
+					<li>GParted</li>
+					<li>UNetbootin</li>
+					<li>Infinality FreeType</li>
+					<li>Faenza Iconset</li>
+					<li>Ubuntu font preinstalled</li>
+					<li>SimpleScan</li>
+					<li>Cheese</li>
+					<li>Shotwell</li>
+					<li>mtPaint</li>
+					<li>GIMP</li>
+					<li>&hellip;</li>
+					<!--<li></li>-->
+				</ul>
+			</div>
+			<div class="slide">
+				<img src="viewie-sample3.png" />
+			</div>
+			<img src="./penguin-alliance_assorted.png" alt="" height="92" width="624" />
+		</div>
+		<!--Pentagon Wars - Scope Creep - Bradley Fighting Vehicle-->
+	</body>
+</html>

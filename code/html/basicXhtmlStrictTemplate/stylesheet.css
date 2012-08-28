@@ -1,0 +1,99 @@
+/**
+ * CSS Reset section
+ *
+ * This section sets most of your
+ * block-level elements to the same
+ * values for consistency. This helps
+ * to make layouts that match across
+ * different browsers and platforms.
+ *
+ * @author Akoi Meexx and the rest of The Interwebs; come on, this is common sense people....
+ */
+
+/**
+ * Some technicalities:
+ *
+ * When using 0 to specify a value,
+ * no measurement type(em, px, pt,
+ * %, etc) is needed. It is done here
+ * solely for posterity.
+ */
+
+html, body, div, img, h1, h2, h3, h4, li, ul, ol, dl, dd, dt, form, table, td, tr, blockquote
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+body
+{
+	background-color: #ffffff;
+}
+	/**
+	 * When using float-based layouts,
+	 * <br /> will clear up broken
+	 * section divisions. E.G....
+	 *
+	 * Two <div>'s floated left will be
+	 * next to each other horizontally,
+	 * then use <br /> after them to
+	 * place your layout below them.
+	 */
+br
+{
+	clear: both;
+}
+
+
+#header
+{
+	background-color: #808080;
+	padding: 16px;
+	text-align: center;
+}
+
+#navigation
+{
+	background-color: #606060;
+	padding: 4px 16px;
+	text-align: center;
+}
+	#navigation a
+	{
+		background-color: transparent;
+		color: #000000;
+		font-weight: bold;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	#navigation ol, #navigation ul
+	{
+		list-style: none;
+	}
+	#navigation li
+	{
+		display: inline;
+	}
+
+.contentBlock
+{
+	background-color: #c0c0c0;
+	padding: 24px 16px 4px;
+	width: 75%;
+}
+
+#footer
+{
+	color: #808080;
+	font-size: 0.8em;
+	font-style: italic;
+	padding: 16px;
+	text-align: right;
+}
+	#footer a
+	{
+		color: #000000;
+	}

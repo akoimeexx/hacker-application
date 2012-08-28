@@ -1,0 +1,29 @@
+/* Amazing css3 settings for zebra-striping our code background! */
+
+div.code-editor {
+	background-color: #ffffff;
+	background-image: -moz-repeating-linear-gradient(top left -90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 40px);
+	background-image: -o-repeating-linear-gradient(-90deg, rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0.1) 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 40px);
+	background-image: -webkit-repeating-linear-gradient(top, rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0.1) 20px, rgba(0, 0, 0, 0.1) 20px, rgba(0, 0, 0, 0.1) 40px);
+	border: 2px solid #c0c0c0;
+	padding: 20px 40px;
+	position: relative;
+}
+
+code {
+	display: inline-block;
+	font-family: monospace;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	list-style-type: decimal-leading-zero !important;
+	padding: 0px;
+	white-space: pre-wrap;
+}
+	/* Python Syntax Highlighting */
+	code.python .include { color: #ff80e0; }
+	code.python .comment { color: #a1a09f; }
+	code.python .CONSTANT { color: #0057ae; font-weight: bold; }
+	code.python .function, code.python .variable { color: #0057ae; }
+	code.python .keyword { color: #000000; font-weight: bold; }
+	code.python .reserved { color: #006e28; }
+	code.python .string { color: #bf0303; }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="StyleSheet" type="text/css" href="3d-layers.css" media="screen" />
+		<link rel="StyleSheet" type="text/css" href="site.css" media="screen" />
+		
+		<title>Real-world test</title>
+	</head>
+	<body class="iso-layer">
+		<div class="container">
+			<div id="header">
+				<button onclick="if(document.body.className == 'iso-metrics') { document.body.className = ''; } else { document.body.className = 'iso-metrics'; }">Click to toggle Isometric Layer!</button><br />
+				<h1><a name="top" href="http://akoimeexx.com/">akoimeexx.com<img src="images/headerBlackLogo.png" alt="don't panic!" width="42" height="42" style="vertical-align: top;" /></a></h1>
+			</div>
+
+			<div id="navigation">
+				<ol>
+					<li><a href="/files/">files</a></li>
+					<li><a href="/multimedia/">multimedia</a></li>
+					<li><a href="/projects/">projects</a></li>
+				</ol>
+				<form action="" method="post">
+					<div>
+						<input name="search" id="search" type="text" value="search..." onblur="input_blur(this, 'search...');" onfocus="input_focus(this, 'search...');" />
+						<input type="submit" value="search &raquo;" />
+					</div>
+				</form><br />
+			</div>
+
+			<div id="sideNavigation">
+				<h5>external links</h5>
+				<ol>
+					<li><a href="http://www.instructables.com/member/Akoi+Meexx/">instructables.com</a></li>
+					<li><a href="http://twitter.com/akoimeexx">twitter.com</a></li>
+				</ol>
+			</div>
+
+			<div class="contentBlock">
+				<h2 class="contentTitle"><a name="contentID0"></a>Title</h2>
+				<h3 class="contentTagline">Tagline</h3>
+				<p>Paragraph</p>
+			</div>
+
+			<div id="footer">
+				&copy; 2010 <a href="/about/">Akoi Meexx</a>. All rights reserved.<br />
+				<a href="#top">return to top</a>
+			</div>
+		</div>
+	</body>
+</html>

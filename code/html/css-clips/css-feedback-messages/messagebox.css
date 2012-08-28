@@ -1,0 +1,39 @@
+.messagebox
+{
+	background-position: 4px 4px;
+	background-repeat: no-repeat;
+	border: 2px solid;
+	min-height: 29px;
+	padding-left: 40px;
+	padding-top: 11px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+	.messagebox.info
+	{
+		background-color: #ccffaa;
+		background-image: url('msg_information_32x32.png');
+		border-color: #44aa00;
+		color: #308030;
+	}
+	.messagebox.question
+	{
+		background-color: #aaccff;
+		background-image: url('msg_question_32x32.png');
+		border-color: #0055d4;
+		color: #303080;
+	}
+	.messagebox.warning
+	{
+		background-color: #ffffcc;
+		background-image: url('msg_warning_32x32.png');
+		border-color: #eecc00;
+		color: #aa8000;
+	}
+	.messagebox.critical
+	{
+		background-color: #ffccaa;
+		background-image: url('msg_critical_32x32.png');
+		border-color: #aa4400;
+		color: #803030;
+	}

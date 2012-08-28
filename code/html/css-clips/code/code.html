@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="code.css" rel="StyleSheet" type="text/css" />
+		<title>Code Syntax Highlighting</title>
+	</head>
+	<body>
+<div class="code-editor">
+<code class="python"><span class="comment"># This is a sample codeblock with syntax highlighting.</span>
+<span class="include">import</span> wx
+
+<span class="keyword">class</span> Application(wx.App):
+	<span class="keyword">def</span> OnInit(<span class="reserved">self</span>):
+		<span class="reserved">self</span>.window = MainWindowFrame()
+		<span class="reserved">self</span>.SetTopWindow(<span class="reserved">self</span>.window)
+		<span class="reserved">self</span>.window.Show(<span class="reserved">True</span>)
+		
+		<span class="keyword">return</span> <span class="reserved">True</span>
+	
+	
+<span class="keyword">class</span> MainWindowFrame(wx.Frame):
+	<span class="keyword">def</span> <span class="keyword">__init__</span>(<span class="reserved">self</span>):
+		<span class="function">super</span>(MainWindowFrame, <span class="reserved">self</span>).<span class="function">__init__</span>(
+			parent=<span class="reserved">None</span>, 
+			id=wx.ID_ANY, 
+			title=<span class="string">"wxPython Window"</span>, 
+			pos=wx.DefaultPosition, 
+			size=wx.DefaultSize, 
+			style=wx.DEFAULT_FRAME_STYLE, 
+			name=<span class="string">"MainWindowFrame"</span>
+		)
+		
+		<span class="reserved">self</span>.panel = wx.Panel(<span class="keyword">self</span>)
+
+
+<span class="keyword">if</span> <span class="variable">__name__</span> == <span class="string">'__main__'</span>:
+	app = Application(<span class="reserved">False</span>)
+	app.MainLoop()
+
+
+<span class="comment"># The line below is 80 characters long</span>
+<span class="comment"># 123456789022345678903234567890423456789052345678906234567890723456789082345678</span>
+</code>
+</div>
+<!--
+<menu>
+	<li>
+		<menu label="File">
+			<button type="button" onclick="fopen()">Open...</button>
+		</menu>
+	</li>
+	<li>
+		<menu label="Edit">
+			<button type="button" onclick="ecopy()">Copy</button>
+		</menu>
+	</li>
+	<li>
+		<menu label="Help">
+			<li><a href="help.html">Help</a></li>
+			<li><a href="about.html">About</a></li>
+		</menu>
+	</li>
+</menu>-->
+	</body>
+</html>

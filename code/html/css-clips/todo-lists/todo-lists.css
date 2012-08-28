@@ -1,0 +1,49 @@
+.todo {
+	color: #000000;
+	font-family: Ubuntu, sans-serif;
+	list-style-position: inside;
+	margin: 0px;
+	padding: 0px;
+}
+.todo:before {
+	content: "TODO:";
+	font-size: 1.2em;
+	font-weight: bold;
+}
+	.todo li.canceled, .todo li.complete { color: rgba(0, 0, 0, 0.25); }
+	.todo li.canceled:hover, .todo li.complete:hover { color: rgba(0, 0, 0, 0.50); }
+	.todo li.complete:after, .todo li.canceled:after, .todo li.inprogress:after, .todo li.paused:after {
+		font-weight: bold;
+		width: 1em;
+	}
+	.todo li.inprogress {
+		color: #00a0ff;
+	}
+	.todo li.paused {
+		color: #ffa000;
+	}
+	.todo li.complete:after {
+		color: #00c000;
+		content: "\2714";
+	}
+	.todo li.canceled:after {
+		color: #c00000;
+		content: "\2716";
+	}
+	.todo li.inprogress:after {
+		content: "\2023";
+	}
+	.todo li.paused:after {
+		content: "\2026";
+	}
+
+	.todo li.separator {
+		background-color: rgba(0, 0, 0, 0.25);
+		height: 2px;
+		list-style-type: none !important;
+		margin-bottom: 0.3em;
+		margin-top: 0.3em;
+	}
+
+ul.todo { list-style: none; }
+	ul.todo li { margin-left: 1em; }

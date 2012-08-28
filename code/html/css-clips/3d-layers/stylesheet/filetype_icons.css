@@ -1,0 +1,53 @@
+/**
+ * File icon link associations
+ */
+	/* Remove href underlines from file links. */
+a[href$='.bz2'], a[href$='.gz'], a[href$='.rar'], a[href$='.tar'], a[href$='.tgz'], a[href$='.zip'], a[href$='.7z'],
+a[href$='.mp3'], a[href$='.ogg'], a[href$='.wav'], a[href$='.wma'],
+a[href$='.app'], a[href$='.bat'], a[href$='.bin'], a[href$='.exe'], a[href$='.sh'],
+a[href$='.doc'], a[href$='.odt'], a[href$='.pdf'], a[href$='.rtf'], a[href$='.txt'],
+a[href$='.bmp'], a[href$='.gif'], a[href$='.jpeg'], a[href$='.jpg'], a[href$='.png'], a[href$='.svg'], a[href$='.tif'],
+a[href$='.avi'], a[href$='.m4v'], a[href$='.mov'], a[href$='.mp4'], a[href$='.mpeg'], a[href$='.mpg'], a[href$='.ogv'], a[href$='.wmv']
+{
+	border-bottom: 1px dotted #6f6f6f;
+	color: #cfcfcf;
+	text-decoration: none;
+}
+
+	/* Archive links */
+a[href$='.bz2']:after, a[href$='.gz']:after, a[href$='.rar']:after, a[href$='.tar']:after, a[href$='.tgz']:after, a[href$='.zip']:after, a[href$='.7z']:after
+{
+	content: url('../images/icons/zip_icon_16x16.png');
+	margin: auto auto auto 4px;
+}
+	/* Audio links */
+a[href$='.mp3']:after, a[href$='.ogg']:after, a[href$='.wav']:after, a[href$='.wma']:after
+{
+	content: url('../images/icons/audio_icon_16x16.png');
+	margin: auto auto auto 4px;
+}
+	/* Document links */
+a[href$='.doc']:after, a[href$='.odt']:after, a[href$='.pdf']:after, a[href$='.rtf']:after, a[href$='.txt']:after
+{
+	content: url('../images/icons/text_icon_16x16.png');
+	margin: auto auto auto 4px;
+}
+	/* Executable links */
+a[href$='.app']:after, a[href$='.bat']:after, a[href$='.bin']:after, a[href$='.exe']:after, a[href$='.sh']:after
+{
+	content: url('../images/icons/program_icon_16x16.png');
+	margin: auto auto auto 4px;
+}
+	/* Image links */
+a[href$='.bmp']:after, a[href$='.gif']:after, a[href$='.jpeg']:after, a[href$='.jpg']:after, a[href$='.png']:after, a[href$='.svg']:after, a[href$='.tif']:after
+{
+	content: url('../images/icons/image_icon_16x16.png');
+	margin: auto auto auto 4px;
+}
+	/* Movie links */
+a[href$='.avi']:after, a[href$='.m4v']:after, a[href$='.mov']:after, a[href$='.mpeg']:after, a[href$='.mpg']:after, a[href$='.ogv']:after, a[href$='.wmv']:after
+{
+	content: url('../images/icons/movie_icon_16x16.png');
+	margin: auto auto auto 4px;
+}
+

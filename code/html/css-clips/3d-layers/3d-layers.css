@@ -1,0 +1,121 @@
+/**
+ * CSS Isometric Layer Display
+ * 	written by Akoi Meexx - June 14th, 2011
+ * 
+ * Source obvs. free for all. If you use this and like it, just hit me up on 
+ * twitter @akoimeexx. Everyone can always use a little ego boost.
+ */
+
+/**
+ * CHANGELOG
+ * 
+ * 	August 4th, 2011
+ * 		Added fallback colors for browsers w/o rgba() support.
+ * 		Sorted transform rules to apply non-prefixed last.
+ * 		Removed overflow: hidden from the body class.
+ * 		Renamed the class to iso-metrics for the lulz.
+ * 		Added this changelog.
+ * 		
+ * 	June 14th, 2011
+ * 		Initial project creation.
+ */
+
+/**
+ * Apply our iso-metrics class to the body element to show a rough layout of our 
+ * DOM layers in isometric view. Float the body left to constrain the body 
+ * contents. Then rock it like it's hawt, rock it like it's hawt...
+ */
+body.iso-metrics {
+	float: left !important;
+	
+		-moz-transform-origin: top right !important;
+		-ms-transform-origin: top right !important;
+		-o-transform-origin: top right !important;
+		-webkit-transform-origin: top right !important;
+	transform-origin: top right !important;
+		-moz-transform: rotate(-45deg) skew(15deg, 15deg) !important;
+		-ms-transform: rotate(-45deg) skew(15deg, 15deg) !important;
+		-o-transform: rotate(-45deg) skew(15deg, 15deg) !important;
+		-webkit-transform: rotate(-45deg) skew(15deg, 15deg) !important;
+	transform: rotate(-45deg) skew(15deg, 15deg) !important;
+}
+
+/**
+ * Set up us the borders, margins, padding, and take off every text to stay 
+ * inside their containers for great justice.
+ */
+.iso-metrics address, .iso-metrics article, .iso-metrics aside, .iso-metrics blockquote, 
+.iso-metrics canvas, .iso-metrics dl, .iso-metrics div, .iso-metrics embed, 
+.iso-metrics fieldset, .iso-metrics figure, .iso-metrics footer, .iso-metrics form, 
+.iso-metrics header, .iso-metrics map, .iso-metrics object, .iso-metrics ol, 
+.iso-metrics output, .iso-metrics p, .iso-metrics pre, .iso-metrics section, 
+.iso-metrics table, .iso-metrics ul, .iso-metrics video {
+	border-bottom: 12px solid #c0c0c0 !important;
+	border-left: 12px solid #d0d0d0 !important;
+	border-right: 1px solid #a0a0a0 !important;
+	border-top: 1px solid #b0b0b0 !important;
+	border-bottom: 12px solid rgba(0, 0, 0, 0.10) !important;
+	border-left: 12px solid rgba(0, 0, 0, 0.05) !important;
+	border-right: 1px solid rgba(0, 0, 0, 0.20) !important;
+	border-top: 1px solid rgba(0, 0, 0, 0.15) !important;
+	
+	margin-bottom: 8px !important;
+	margin-left: 8px !important;
+	margin-right: 2px !important;
+	margin-top: 2px !important;
+	
+	padding: 2px !important;
+	
+	word-wrap: break-word !important;
+}
+	/**
+	 * Give our block-level elements basic rgb(a) coloring (red, green, blue)
+	 */
+	/* Red */
+	.iso-metrics address:nth-child(3n+1), .iso-metrics article:nth-child(3n+1), 
+	.iso-metrics aside:nth-child(3n+1), .iso-metrics blockquote:nth-child(3n+1), 
+	.iso-metrics canvas:nth-child(3n+1), .iso-metrics dl:nth-child(3n+1), 
+	.iso-metrics div:nth-child(3n+1), .iso-metrics embed:nth-child(3n+1), 
+	.iso-metrics fieldset:nth-child(3n+1), .iso-metrics figure:nth-child(3n+1), 
+	.iso-metrics footer:nth-child(3n+1), .iso-metrics form:nth-child(3n+1), 
+	.iso-metrics header:nth-child(3n+1), .iso-metrics map:nth-child(3n+1), 
+	.iso-metrics object:nth-child(3n+1), .iso-metrics ol:nth-child(3n+1), 
+	.iso-metrics output:nth-child(3n+1), .iso-metrics p:nth-child(3n+1), 
+	.iso-metrics pre:nth-child(3n+1), .iso-metrics section:nth-child(3n+1), 
+	.iso-metrics table:nth-child(3n+1), .iso-metrics ul:nth-child(3n+1), 
+	.iso-metrics video:nth-child(3n+1) {
+		background-color: #ffd0d0 !important;
+		background-color: rgba(255, 0, 0, 0.05) !important;
+	}
+	/* Green */
+	.iso-metrics address:nth-child(3n+2), .iso-metrics article:nth-child(3n+2), 
+	.iso-metrics aside:nth-child(3n+2), .iso-metrics blockquote:nth-child(3n+2), 
+	.iso-metrics canvas:nth-child(3n+2), .iso-metrics dl:nth-child(3n+2), 
+	.iso-metrics div:nth-child(3n+2), .iso-metrics embed:nth-child(3n+2), 
+	.iso-metrics fieldset:nth-child(3n+2), .iso-metrics figure:nth-child(3n+2), 
+	.iso-metrics footer:nth-child(3n+2), .iso-metrics form:nth-child(3n+2), 
+	.iso-metrics header:nth-child(3n+2), .iso-metrics map:nth-child(3n+2), 
+	.iso-metrics object:nth-child(3n+2), .iso-metrics ol:nth-child(3n+2), 
+	.iso-metrics output:nth-child(3n+2), .iso-metrics p:nth-child(3n+2), 
+	.iso-metrics pre:nth-child(3n+2), .iso-metrics section:nth-child(3n+2), 
+	.iso-metrics table:nth-child(3n+2), .iso-metrics ul:nth-child(3n+2), 
+	.iso-metrics video:nth-child(3n+2) {
+		background-color: #d0ffd0 !important;
+		background-color: rgba(0, 255, 0, 0.05) !important;
+	}
+	/* Blue */
+	.iso-metrics address:nth-child(3n+3), .iso-metrics article:nth-child(3n+3), 
+	.iso-metrics aside:nth-child(3n+3), .iso-metrics blockquote:nth-child(3n+3), 
+	.iso-metrics canvas:nth-child(3n+3), .iso-metrics dl:nth-child(3n+3), 
+	.iso-metrics div:nth-child(3n+3), .iso-metrics embed:nth-child(3n+3), 
+	.iso-metrics fieldset:nth-child(3n+3), .iso-metrics figure:nth-child(3n+3), 
+	.iso-metrics footer:nth-child(3n+3), .iso-metrics form:nth-child(3n+3), 
+	.iso-metrics header:nth-child(3n+3), .iso-metrics map:nth-child(3n+3), 
+	.iso-metrics object:nth-child(3n+3), .iso-metrics ol:nth-child(3n+3), 
+	.iso-metrics output:nth-child(3n+3), .iso-metrics p:nth-child(3n+3), 
+	.iso-metrics pre:nth-child(3n+3), .iso-metrics section:nth-child(3n+3), 
+	.iso-metrics table:nth-child(3n+3), .iso-metrics ul:nth-child(3n+3), 
+	.iso-metrics video:nth-child(3n+3) {
+		background-color: #d0d0ff !important;
+		background-color: rgba(0, 0, 255, 0.05) !important;
+	}

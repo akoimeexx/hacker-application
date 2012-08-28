@@ -1,0 +1,195 @@
+
+=================== FREESOUND ATTRIBUTION FORM =======================
+
+This form below lists all the samples in this pack with their descriptions and tags.
+You can use this form to attribute samples to users when you use them.
+
+=========================== CUT HERE =================================
+
+File:
+	Name: "00.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=785
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "01.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=786
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "02.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=787
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "03.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=788
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "04.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=789
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "05.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=790
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "06.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=791
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "07.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=792
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "08.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=793
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "09.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=794
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+
+File:
+	Name: "10.aiff"
+	Url: http://www.freesound.org/samplesViewSingle.php?id=795
+	Date of upload: 2005-04-15 22:08:38
+	
+Designer / Creator / Uploader:
+	Name: "Steven Phillips"
+	Url: http://www.freesound.org/usersViewSingle.php?id=496
+	
+Description:
+	By "Steven Phillips" : stereo vocoder femal
+ voices
+
+Tags:
+	count female figure number stereo vocoder voices 
+======================================================================
+

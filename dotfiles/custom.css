@@ -1,0 +1,11 @@
+/**
+ * This css file should be saved to the following directory as custom.css
+ * ~/Library/Application Support/Google/Chrome/Default/User Stylesheets/
+ */
+
+/**
+ * Get rid of Facebook "Chat Box". Period.
+ */
+.fbDockWrapper.fbDockWrapperRight.bb {
+	display: none;
+}

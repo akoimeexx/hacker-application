@@ -1,0 +1,15 @@
+-W3
+-gT!
+
+# use lz77 compression
+-gzl
+
+# Enable tile mapping
+-m
+-tw8
+-th8
+
+# 8 bit bitmap
+-gB8
+
+-gt

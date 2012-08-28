@@ -1,0 +1,10 @@
+-W3
+-gT!
+
+# use lz77 compression
+-gzl
+
+# 8 bit bitmap
+-gB8
+
+-gb

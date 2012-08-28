@@ -1,0 +1,12 @@
+a[rel~="external"][href] {
+	border-bottom: 1px solid !important;
+	text-decoration: none !important;
+}
+a[rel~="external"][href]:after {
+	content: "\002197"; /* Northeast Arrow: ↗ */
+	font-weight: bold;
+	font-size: 0.7em;
+	position: relative;
+	top: -0.6em;
+	right: -0.2em;
+}

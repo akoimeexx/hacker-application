@@ -1,0 +1,46 @@
+/**
+ * CSS Vertical Headers
+ * 	written by Akoi Meexx - August 17th, 2011
+ * 
+ * Source obvs. free for all. If you use this and like it, just hit me up on 
+ * twitter @akoimeexx. Everyone can always use a little ego boost.
+ */
+
+/**
+ * CHANGELOG
+ * 
+ * 	August 17th, 2011
+ * 		Initial project creation.
+ */
+
+.vert-headers { 
+	/*overflow: hidden;*/
+	position: relative;
+	
+}
+
+.vert-headers h1, .vert-headers h2, .vert-headers h3, .vert-headers h4, 
+.vert-headers h5, .vert-headers h6 {
+	position: absolute !important;
+	top: 251px;
+	float: left;
+	width: 240px;
+	text-align: right;
+	background-color: #0000ff;
+	font-size: 32px;
+	height: 38px;
+	padding: 2px 16px;
+	
+		-moz-transform-origin: top left !important;
+		-ms-transform-origin: top left !important;
+		-o-transform-origin: top left !important;
+		-webkit-transform-origin: top left !important;
+	transform-origin: top left !important;
+		-moz-transform: rotate(-90deg) !important;
+		-ms-transform: rotate(-90deg) !important;
+		-o-transform: rotate(-90deg) !important;
+		-webkit-transform: rotate(-90deg) !important;
+	transform: rotate(-90deg) !important;
+	
+}
+.vert-headers p { margin-left: 42px; }

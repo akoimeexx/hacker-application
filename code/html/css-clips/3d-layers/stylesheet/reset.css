@@ -1,0 +1,28 @@
+/**
+ * CSS Reset section
+ * 
+ * This section sets most of your block-level elements to the same values for 
+ * consistency. This helps to make layouts that match across different browsers 
+ * and platforms.
+ * 
+ * @author Akoi Meexx and The Interwebs; common sense, people
+ * 
+ * Some technicalities:
+ * When using 0 to specify a value, no measurement type(em, px, pt, %, etc) 
+ * is needed. It is done here solely for posterity.
+ */
+
+html, body, div, img, h1, h2, h3, h4, h5, li, ul, ol, dl, dd, dt, form, table, 
+td, tr, blockquote
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+a img
+{
+	border-style: none;
+}

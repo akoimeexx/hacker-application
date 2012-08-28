@@ -1,0 +1,63 @@
+.vCard
+{
+	background-color: #303030;
+	padding: 4px;
+	white-space: nowrap;
+}
+	.vCard ul
+	{
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	/* Photo ID */
+	.vCard img.photoID
+	{
+		/* float: left; */
+		margin-right: 4px;
+	}
+
+	/* Full name */
+	.vCard .fullName
+	{
+		font-weight: normal;
+	}
+	.vCard .fullName:before
+	{
+		content: "full name ";
+		font-weight: bold;
+	}
+	
+	/* Address */
+	.vCard address
+	{
+		font-weight: normal;
+	}
+	.vCard address:before
+	{
+		content: "address ";
+		font-weight: bold;
+	}
+	
+	/* Email */
+	.vCard .email
+	{
+		font-weight: normal;
+	}
+	.vCard .email:before
+	{
+		content: "email ";
+		font-weight: bold;
+	}
+	
+	/* AIM */
+	.vCard .IM
+	{
+		font-weight: normal;
+	}
+	.vCard .IM:before
+	{
+		content: "im ";
+		font-weight: bold;
+	}

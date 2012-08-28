@@ -1,0 +1,38 @@
+/* Makes half-decent codeblocks */
+div.code
+{
+	/* Zebra striping */
+	background-color: #191919; /*inherit;*/
+	background-image: url('../images/zebrastripe.png');
+	
+	/* Border */
+	border: 2px solid #606060;
+	
+	/* Font styling, req'd by zebra striping */
+	font-family: monospace, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	width: 86ex;
+}
+	div.code ol
+	{
+		float: right;
+		padding: 0px 8px;
+		width: 80ex;
+	}
+		div.code ol li
+		{
+			color: #404040;
+			list-style-type: decimal-leading-zero;
+		}
+			div.code ol li span
+			{
+				color: #30c000;
+			}
+
+/* Reverses email addresses -- e.g. moc.sserdda@liame */
+.obfuscate
+{
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}

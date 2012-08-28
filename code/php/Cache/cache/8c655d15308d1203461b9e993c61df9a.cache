@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+		<script type="text/javascript" src="/js/site.js"></script>
+		
+		<link rel="apple-touch-icon" href="/images/Penguin_Alliance-64x64.png" />
+		<link rel="icon" type="image/png" href="/images/penguin_alliance-16x16.png" />
+		<link rel="StyleSheet" type="text/css" href="/site.css" media="screen" />
+		
+		<title>akoimeexx.com &mdash; home</title>
+	</head>
+	<body>
+		<div class="container">
+			<div id="header">
+				<h1><a name="top" href="/">akoimeexx.com<img src="/images/penguin_alliance-42x42.png" alt="Penguin Alliance" width="42" height="42" style="vertical-align: top;" /></a></h1>
+			</div>
+			
+			<div id="navigation">
+				<ol>
+					<li><a href="/files/">files</a></li>
+					<li><a href="/multimedia/">multimedia</a></li>
+					<li><a href="/projects/">projects</a></li>
+				</ol>
+				<form action="" method="post">
+					<div>
+						<input name="search" id="search" type="text" value="search..." onblur="input_blur(this, 'search...');" onfocus="input_focus(this, 'search...');" />
+						<input type="submit" value="search &raquo;" />
+					</div>
+				</form><br />
+			</div>
+			
+			<div id="sideNavigation">
+				<h5>external links</h5>
+				<ol>
+					<!-- I haven't decided to add this one in yet... -->
+<!--					<li>
+						<img src="/images/delicious.png" alt="[icon]" width="20" height="20" />
+						<a href="http://delicious.com/akoimeexx">delicious.com</a>
+					</li>-->
+					<!-- I haven't decided to add this one in yet... -->
+<!--					<li>
+						<img src="/images/facebook.png" alt="[icon]" width="20" height="20" />
+						<a href="http://www.facebook.com/akoimeexx">facebook.com</a>
+					</li>-->
+					<li>
+						<img src="/images/instructables.png" alt="[icon]" width="20" height="20" />
+						<a href="http://www.instructables.com/member/Akoi+Meexx/">instructables.com</a>
+					</li>
+					<!-- I haven't decided to add this one in yet... -->
+<!--					<li>
+						<img src="/images/pandora.png" alt="[icon]" width="20" height="20" />
+						<a href="http://www.pandora.com/people/akoimeexx">pandora.com</a>
+					</li>-->
+					<!-- I haven't decided to add this one in yet... -->
+<!--					<li>
+						<img src="/images/stackoverflow.png" alt="[icon]" width="20" height="20" />
+						<a href="http://stackoverflow.com/users/143078/akoi-meexx">stackoverflow.com</a>
+					</li>-->
+					<!-- I haven't decided to add this one in yet... -->
+<!--					<li>
+						<img src="" alt="[icon]" width="20" height="20" />
+						<a href="http://steamcommunity.com/id/akoimeexx/">steamcommunity.com</a>
+					</li>-->
+					<li>
+						<img src="/images/twitter_icon.png" alt="[icon]" width="20" height="20" />
+						<a href="http://twitter.com/akoimeexx">twitter.com</a>
+					</li>
+					<!-- I haven't decided to add this one in yet... -->
+<!--					<li>
+						<img src="/images/wikipedia.png" alt="[icon]" width="20" height="20" />
+						<a href="http://en.wikipedia.org/wiki/User:Akoi_Meexx">wikipedia.com</a>
+					</li>-->
+					<!-- I haven't decided to add this one in yet... -->
+<!--					<li>
+						<img src="/images/xbox.png" alt="[icon]" width="20" height="20" />
+						<a href="http://live.xbox.com/en-US/profile/profile.aspx?pp=0&amp;GamerTag=Akoi+Meexx">xbox.com</a>
+					</li>-->
+				</ol>
+			</div>
+			
+			<div class="contentBlock">
+				<h2 class="contentTitle"><a name="contentID0">~/</a></h2>
+				<h3 class="contentTagline">
+					it's where the &lt;3 is
+				</h3>
+				<p>Welcome to my slice of the interwebs. I hope you enjoy your stay. Please don't mind the sawdust here and there, this site is a work-in-progress.</p>
+				<p>All pages within the website are designed to validate with xhtml 1.0 strict unless otherwise noted.</p>
+			</div>
+			
+			<div class="contentBlock">
+				<h2 class="contentTitle"><a name="contentID1">files</a></h2>
+				<h3 class="contentTagline">the desk drawer of my corner of the internets</h3>
+				<p>free to browse, free to use, free to download. items to share with the world can be downloaded here.</p>
+				<p class="sectionLink"><a href="/files/">open the directory index &raquo;</a></p>
+			</div>
+			
+			<div class="contentBlock">
+				<h2 class="contentTitle"><a name="contentID2">multimedia</a></h2>
+				<h3 class="contentTagline">moments of life captured for display</h3>
+				<p>glimpse into the auditory and visual world of Akoi Meexx.</p>
+				<p class="sectionLink"><a href="/multimedia/">browse the multimedia library archives &raquo;</a></p>
+			</div>
+			
+			<div class="contentBlock">
+				<h2 class="contentTitle"><a name="contentID3">projects</a></h2>
+				<h3 class="contentTagline">random inspirations of labor and love</h3>
+				<p>when the muse hits, look for project logs and information here.</p>
+				<p class="sectionLink"><a href="/projects/">browse the project archives &raquo;</a></p>
+			</div>
+			
+			<div id="footer">
+				&copy; 2010 <a href="/about/">Akoi Meexx</a>. All rights reserved.<br />
+				<a href="#top">return to top</a>
+			</div>
+		</div>
+	</body>
+</html>
